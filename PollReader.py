@@ -147,6 +147,8 @@ def main():
     print(f"  Harris: {harris_avg:.2%}")
     print(f"  Trump: {trump_avg:.2%}")
 
+    # comment
+
     harris_change, trump_change = poll_reader.polling_history_change()
     print(f"Polling History Change:")
     print(f"  Harris: {harris_change:+.2%}")
