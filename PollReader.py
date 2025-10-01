@@ -133,7 +133,7 @@ class TestPollReader(unittest.TestCase):
         harris_change, trump_change = self.poll_reader.polling_history_change()
         self.assertTrue(isinstance(harris_change, float))
         self.assertTrue(isinstance(trump_change, float))
-        # ANOTHER COMMENT
+        # ANOTHER COMMENT # another comment
 
 def main():
     poll_reader = PollReader('polling_data.csv')
